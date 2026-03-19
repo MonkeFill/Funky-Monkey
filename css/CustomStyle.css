@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+@font-face {
+    font-family: 'Toxigenesis';
+    src: url('../fonts/Toxigenesis.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+    --dark-blue: #003889;
+    --background-grey: #F0F0F0;
+    --text-colour-bluebg: #FFFFFF;
+    --company-font: 'Toxigenesis';
+	--header-font: "Merriweather";
+    --default-font: 'Source Sans 3';
+}
+
+body {
+    font-family: var(--default-font), sans-serif !important;
+    margin: 0;
+    padding-top: 120px !important; 
+}
+
+.navbar {
+    background-color: var(--dark-blue) !important;
+    min-height: 120px !important;
+    display: flex;
+    align-items: center;
+	outline: solid;
+	outline-width: thin;
+	outline-color: black;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.card
+{
+	background-color: var(--dark-blue);
+	padding: 7px;
+}
+
+.card-text{
+	color: var(--text-colour-bluebg);
+	font: var(--default-font);
+	font-weight: 300;
+	font-size: 35px;
+	padding: 0px;
+}
+
+.card-footer-title{
+	color: #000000;
+	font: var(--header-font);
+	font-size: 36px;
+	font-weight: 700;
+
+}
+
+.card-footer-text{
+	color: black;
+	font: var(--default-font);
+	font-weight: 400;
+	font-size: 20px;
+	padding: 0px;
+}
+
+.card-footer{
+	background-color: var(--background-grey);
+	transition: transform 0.3s ease;
+	padding: 7px;
+}
+
+
+.card-footer-body{
+	padding: 2px;
+	min-height: 200px;
+}
+
+.card-footer:hover {
+    transform: scale(1.025) /*Makes it bigger on scale*/
+}
+
+.card-body h5{
+	margin: 3px;
+}
+
+.card-body p{
+	margin: 2px;
+}
+
+.nav-logo-large {
+    height: 90px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.brand-text-stack {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between;
+}
+
+.brand-top-text {
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand.brand-name {
+    font-family: var(--company-font), sans-serif !important;
+    color: var(--text-colour-bluebg) !important;
+    font-size: 2rem;
+}
+
+.brand-bottom-row {
+    height: 45px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.brand-sub-square {
+    height: 40px; 
+    width: 40px; 
+    background-color: transparent !important;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; /* how fast to make it bigger*/
+    text-decoration: none;
+    padding: 0;
+}
+
+.brand-sub-square:hover {
+    transform: scale(1.1) /*Makes it bigger on scale*/
+}
+
+.brand-sub-square img {
+    height: 100%;
+    width: auto;
+}
+
+.brand-sub-square:hover img {
+    opacity: 0.75; /*making it a bit see through when hovered*/
+}
+
+.navbar-collapse {
+    justify-content: flex-end !important;
+}
+
+.nav-link.btn {
+    font-family: var(--default-font), sans-serif !important;
+    font-weight: 700;
+    font-size: 15pt;
+    background-color: var(--background-grey) !important;
+    color: #000000 !important;
+    border: none;
+    padding: 10px 20px !important;
+    border-radius: 4px;
+    margin-left: 15px;
+	transition: transform 0.3s ease;
+}
+
+.nav-link.btn:hover {
+    background-color: #E3E3E3 !important;
+    transform: scale(1.15) /*Makes it bigger on scale*/
+}
+
+.nav-link.btn:focus{
+	box-shadow: none !important;
+}
+
+header.page-header {
+    background-color: var(--background-grey) !important;
+    padding: 20px;
+    text-align: center;
+}
+.display-4{
+	font: var(--header-font);
+	font-weight: 700;
+	font-size: 75px;
+}
+
+main.main-content {
+    background-color: #FFFFFF !important;
+    color: white !important;
+    padding: 60px 20px;
+}
+
+.image-crop {
+    width: 95%;        
+    height: 250px;
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: 2px;     /*curve*/
+    display: block;
+	transition: transform 0.3s ease;
+}
+
+.image-crop:hover
+{
+	transform: scale(1.10);
+}
+
+footer {
+    background-color: var(--dark-blue) !important;
+    color: white;
+    padding: 20px;
+	min-height: 250px;
+    text-align: center;
+}
