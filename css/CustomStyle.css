@@ -205,6 +205,8 @@ header.page-header {
 	font: var(--header-font);
 	font-weight: 700;
 	font-size: 75px;
+	color: black;
+	text-align: center;
 }
 
 main.main-content {
@@ -234,4 +236,8 @@ footer {
     padding: 20px;
 	min-height: 250px;
     text-align: center;
+}
+
+input[type="file"]{
+	color: black;
 }
