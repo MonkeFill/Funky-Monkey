@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FunkyMonkey</title>
-	<link rel="icon" href="../images/Logo.png" type="image/png">
-    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link href="../css/CustomStyle.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="images/Logo.png" type="image/png">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/CustomStyle.css" rel="stylesheet" type="text/css">
 	<!-- TemplateParam name="PageName" type="text" value="Home" -->
 	<!-- TemplateParam name="FacebookURL" type="text" value="https://www.facebook.com/funkymonkeycoffeeco/?locale=en_GB" -->
 	<!-- TemplateParam name="InstagramURL" type="text" value="https://www.instagram.com/funkymonkeycoffeeco/?hl=en" -->
@@ -18,7 +18,7 @@
   <div class="container-fluid"> 
         
       <div class="logo-group">
-            <img src="../images/Logo.png" alt="Logo" class="nav-logo-large"/>
+            <img src="images/Logo.png" alt="Logo" class="nav-logo-large"/>
             
             <div class="brand-text-stack">
                 <div class="brand-top-text">
@@ -27,10 +27,10 @@
                 
               <div class="brand-bottom-row">
                     <a href="@@(FacebookURL)@@" target="_blank" class="brand-sub-square">
-                        <img src="../images/Facebook.png" alt="Icon 1">
+                        <img src="images/Facebook.png" alt="Icon 1">
                     </a>
                     <a href="@@(InstagramURL)@@" target="_blank" class="brand-sub-square">
-                        <img src="../images/Instagram.png" alt="Icon 2">
+                        <img src="images/Instagram.png" alt="Icon 2">
                     </a>
               </div>
             </div>
