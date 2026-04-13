@@ -42,7 +42,8 @@
 
         <div class="collapse navbar-collapse" id="navRes">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link btn" href="javascript:void(0)" onclick="toggleAltDisplay()">Alt Text</a></li>
+                <li class="nav-item"><a class="nav-link btn" href="javascript:void(0)" onclick="SwitchTheme()">Switch Theme</a></li>
+				<li class="nav-item"><a class="nav-link btn" href="javascript:void(0)" onclick="toggleAltDisplay()">Alt Text</a></li>
                 <li class="nav-item"><a class="nav-link btn" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link btn" href="menu.html">Menu</a></li>
                 <li class="nav-item"><a class="nav-link btn" href="events.html">Events</a></li>
@@ -60,21 +61,21 @@
 </header>
 <!-- InstanceBeginEditable name="main-content" -->
     <main class="main-content">
-      <div class="container">
-        <div class="card col-md-4 col-xl-12">
+      <div class="container-fluid d-flex justify-content-center align-items-center mb-4">
+        <div class="card col-md-4 col-xl-10">
           <div class="card-footer-body">
             <p class="card-text">Funky Monkey is a highly-rated independent cafe in Davenport, Stockport, known for its eclectic charm and welcoming, community-focused vibe. It has even earned a "Blue Ribbon" from the Good Food Awards for its quality of service and dishes.</p>
           </div>
         </div>
       </div>
-    </main>
-    <div class="container-fluid mb-4">
-      <div class="row">
-        <div class="col-xl-4"><img src="images/Building.jpg" alt="image of a wall" width="1200" height="900" class="image-crop"/></div>
-<div class="col-xl-4"><img src="images/Food.jpeg" alt="image of a meal" width="1200" height="900" class="image-crop"/></div>
-<div class="col-xl-4"><img src="images/Homepage.jpg" alt="image of the outside" width="1200" height="900" class="image-crop"/></div>
-</div>
-    </div>
+<div class="container-fluid mb-4">
+    <div class="row">
+          <div class="col-xl-4"><img src="images/Building.jpg" alt="image of a wall" width="1200" height="900" class="image-crop"/></div>
+          <div class="col-xl-4"><img src="images/Food.jpeg" alt="image of a meal" width="1200" height="900" class="image-crop"/></div>
+          <div class="col-xl-4"><img src="images/Homepage.jpg" alt="image of the outside" width="1200" height="900" class="image-crop"/></div>
+        </div>
+      </div>
+</main>
 <!-- InstanceEndEditable --><script src="pages/js/jquery-3.4.1.min.js"></script>
 <footer>
   <div class="row">
@@ -107,5 +108,6 @@
     <script src="js/bootstrap-4.4.1.js"></script>
 	<script src="js/ToggleAltDisplay.js"></script>
 	<script src="js/SendApplication.js"></script>
+	<script src="js/SwitchTheme.js"></script>
 </body>
 <!-- InstanceEnd --></html>

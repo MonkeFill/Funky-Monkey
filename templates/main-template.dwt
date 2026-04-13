@@ -42,7 +42,8 @@
 
         <div class="collapse navbar-collapse" id="navRes">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link btn" href="javascript:void(0)" onclick="toggleAltDisplay()">Alt Text</a></li>
+                <li class="nav-item"><a class="nav-link btn" href="javascript:void(0)" onclick="SwitchTheme()">Switch Theme</a></li>
+				<li class="nav-item"><a class="nav-link btn" href="javascript:void(0)" onclick="toggleAltDisplay()">Alt Text</a></li>
                 <li class="nav-item"><a class="nav-link btn" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link btn" href="menu.html">Menu</a></li>
                 <li class="nav-item"><a class="nav-link btn" href="events.html">Events</a></li>
@@ -92,5 +93,6 @@
     <script src="js/bootstrap-4.4.1.js"></script>
 	<script src="js/ToggleAltDisplay.js"></script>
 	<script src="js/SendApplication.js"></script>
+	<script src="js/SwitchTheme.js"></script>
 </body>
 </html>
