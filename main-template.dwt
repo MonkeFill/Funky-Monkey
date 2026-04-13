@@ -14,7 +14,7 @@
 	
 </head>
 <body>
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-light">
   <div class="container-fluid"> 
         
       <div class="logo-group">
@@ -61,7 +61,7 @@
 </header>
 <!-- TemplateBeginEditable name="main-content" -->
     <main class="main-content"> </main>
-<!-- TemplateEndEditable --><script src="../pages/js/jquery-3.4.1.min.js"></script>
+<!-- TemplateEndEditable -->
 <footer>
   <div class="row">
 <div class="col-xl-3">
@@ -89,7 +89,8 @@
     </div>
 </div>
 </footer>
-<script src="js/popper.min.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
 	<script src="js/ToggleAltDisplay.js"></script>
 	<script src="js/SendApplication.js"></script>
