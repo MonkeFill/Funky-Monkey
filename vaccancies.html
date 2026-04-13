@@ -161,6 +161,7 @@
   <div class="container-fluid">
     <h1 class="display-4">Interested?</h1>
 <form
+	  id= "AppForm"
 	  action= "https://usebasin.com/f/d5dedf5c17a9"
 	  method="POST"
 	  enctype="multipart/form-data"
@@ -177,7 +178,7 @@
           <div class="col-xl-12 mx-auto">
             <div class="card-vacc">
               <h5 class="card-footer-text"> Email Address&nbsp;</h5>
-              <input type="email" name="Email Address" id="email">
+              <input type="email" name="Email Address" id="email" required>
 </div>
           </div>
         </div>
@@ -185,7 +186,7 @@
   <div class="col-xl-12 mx-auto">
     <div class="card-vacc">
 <h5 class="card-footer-text"> Full Name</h5>
-      <input type="text" name="Full Name" id="textfield">
+      <input type="text" name="Full Name" id="textfield" required>
     </div>
   </div>
 </div>
@@ -193,7 +194,7 @@
   <div class="col-xl-12 mx-auto">
     <div class="card-vacc">
 <h5 class="card-footer-text"> Phone Number</h5>
-      <input type="tel" name="Phone Number" id="tel">
+      <input type="tel" name="Phone Number" id="tel" required>
     </div>
   </div>
 </div>
@@ -213,7 +214,7 @@
   <div class="col-xl-12 mx-auto">
     <div class="card-vacc">
 <h5 class="card-footer-text"> Previous Experience&nbsp;&nbsp;</h5>
-      <textarea name="Previous Experience" id="Previous Experience"></textarea>
+      <textarea name="Previous Experience" id="Previous Experience" required></textarea>
     </div>
   </div>
 </div>
@@ -221,7 +222,7 @@
   <div class="col-xl-12 mx-auto">
     <div class="card-vacc">
       <h5 class="card-footer-text"> Availability</h5>
-      <textarea name="Availability" id="Availability"></textarea>
+      <textarea name="Availability" id="Availability" required></textarea>
     </div>
   </div>
 </div>
@@ -278,5 +279,6 @@
 <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
 	<script src="js/ToggleAltDisplay.js"></script>
+	<script src="js/SendApplication.js"></script>
 </body>
 <!-- InstanceEnd --></html>
