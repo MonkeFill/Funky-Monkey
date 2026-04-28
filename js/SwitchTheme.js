@@ -1,6 +1,6 @@
 function SwitchTheme() {
     const root = document.documentElement
-    if (getComputedStyle(root).getPropertyValue('--background-colour').trim() === '#FFFFFF') {
+    if (getComputedStyle(root).getPropertyValue('--background-colour').trim() === '#FFFFFF') { /*switch between light and dark by changing css colours*/
         root.style.setProperty('--text-grey-background', '#FFFFFF');
         root.style.setProperty('--text-colour-bluebg', '#000000');
 		root.style.setProperty('--light-background', '#1c1c1c');

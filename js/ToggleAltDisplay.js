@@ -4,12 +4,12 @@ function toggleAltDisplay() {
 	const Grey = rootStyle.getPropertyValue('--light-background: #F0F0F0');
 	const images = document.querySelectorAll('img');
 
-	images.forEach(img => {
+	images.forEach(img => { /* Looping through all images*/
 		let label = img.nextElementSibling;
-		if (label && label.classList.contains('alt-label')) {
+		if (label && label.classList.contains('alt-label')) { /*if it has an alt lable*/
 			label.remove();
 			img.style.display = "block";
-		} else {
+		} else { /*creating the text*/
 			const text = img.alt || "No Alt Text Provided!";
 			const div = document.createElement('div');
 			const currentWidth = img.clientWidth;	
