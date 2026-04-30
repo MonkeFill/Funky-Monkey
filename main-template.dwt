@@ -98,5 +98,6 @@
 	<script src="js/ToggleAltDisplay.js"></script>
 	<script src="js/SendApplication.js"></script>
 	<script src="js/SwitchTheme.js"></script>
+	<script src="js/NewsLetter.js"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@
 	<link rel="icon" href="images/Optimised/Logo.webp" type="image/png">
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="css/CustomStyle.css" rel="stylesheet" type="text/css">
-	<!-- InstanceParam name="PageName" type="text" value="Home" -->
+	<!-- InstanceParam name="PageName" type="text" value="Events" -->
 	<!-- InstanceParam name="FacebookURL" type="text" value="https://www.facebook.com/funkymonkeycoffeeco/?locale=en_GB" -->
 	<!-- InstanceParam name="InstagramURL" type="text" value="https://www.instagram.com/funkymonkeycoffeeco/?hl=en" -->
 	
@@ -64,21 +64,60 @@
 </header>
 <!-- InstanceBeginEditable name="main-content" -->
     <main class="main-content">
-      <div class="container-fluid d-flex justify-content-center align-items-center mb-4">
-        <div class="card col-md-4 col-xl-10">
-          <div class="card-footer-body">
-            <p class="card-text">Funky Monkey is a highly-rated independent cafe in Davenport, Stockport, known for its eclectic charm and welcoming, community-focused vibe. It has even earned a "Blue Ribbon" from the Good Food Awards for its quality of service and dishes.</p>
-          </div>
-        </div>
-      </div>
+      <div class="container-fluid">
+<div class="container-fluid d-flex justify-content-center align-items-center mb-4">
+  <div class="card col-md-4 col-xl-10">
+    <div class="card-footer-body">
+      <p class="card-text">Funky Monkey has lots of events to offer ranging from quiz nights to daily sit down and chats. No matter your style we have an event for you. You can find our events online, by singing up to our newsletter or simply just checking it in our store.</p>
+    </div>
+  </div>
+</div>
 <div class="container-fluid mb-4">
-    <div class="row">
-          <div class="col-xl-4"><img src="images/Optimised/Building.webp" alt="image of a wall" width="1200" height="900" class="image-crop"/></div>
-          <div class="col-xl-4"><img src="images/Optimised/Food.webp" alt="image of a meal" width="1200" height="900" class="image-crop"/></div>
-          <div class="col-xl-4"><img src="images/Optimised/Homepage.webp" alt="image of the outside" width="1200" height="900" class="image-crop"/></div>
-        </div>
+  <div class="row">
+    <div class="col-xl-4"><img src="images/Optimised/Staff.webp" alt="image of a wall" width="1200" height="900" class="image-crop"/></div>
+    <div class="col-xl-4"><img src="images/Optimised/Counter.webp" alt="image of a meal" width="1200" height="900" class="image-crop"/></div>
+    <div class="col-xl-4"><img src="images/Optimised/Homepage.webp" alt="image of the outside" width="1200" height="900" class="image-crop"/></div>
+  </div>
+</div>
+<form
+	  id= "SignupForm"
+	  action= ""
+	  method="POST"
+	  enctype="multipart/form-data"
+	  >
+      <h1 class="display-4">Newsletter</h1>
+          <div class="card col-xl-7 text-center mx-auto">
+            <div class="row no-gutters mb-4">
+              <div class="col-xl-12 d-flex">
+                <div class="card-vacc">
+                  <h5 class="card-footer-title">Sign up to get notified of the latest events</h5>
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters mb-4">
+              <div class="col-xl-12 mx-auto">
+                <div class="card-vacc">
+                  <h5 class="card-footer-text"> Email Address&nbsp;</h5>
+                  <input type="email" name="Email Address" id="email" required>
+                </div>
+              </div>
+            </div>
+<div class="row no-gutters mb-4">
+<div class="col-xl-3 mx-auto">
+            <div class="card-vacc">
+                  <input type="submit" id="submit" value="Submit">
+                </div>
+              </div>
+              <div class="col-xl-3 mx-auto">
+                <div class="card-vacc">
+                  <input type="reset" id="ResetButton" value="Reset">
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
-</main>
+    </main>
 <!-- InstanceEndEditable -->
 <footer>
   <div class="row">
@@ -113,5 +152,6 @@
 	<script src="js/ToggleAltDisplay.js"></script>
 	<script src="js/SendApplication.js"></script>
 	<script src="js/SwitchTheme.js"></script>
+	<script src="js/NewsLetter.js"></script>
 </body>
 <!-- InstanceEnd --></html>
